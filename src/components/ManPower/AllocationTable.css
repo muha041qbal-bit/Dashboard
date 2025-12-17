@@ -1,0 +1,66 @@
+.allocation-table {
+  margin-top: 20px;
+}
+
+.project-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.project-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3498db;
+}
+
+.allocation-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 80px;
+}
+
+.allocation-bar {
+  height: 8px;
+  background-color: #3498db;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.allocation-value {
+  font-weight: 600;
+  color: #2c3e50;
+  min-width: 20px;
+  text-align: right;
+}
+
+.total-cell {
+  text-align: center;
+}
+
+.total-value {
+  font-weight: 700;
+  color: #2c3e50;
+  background-color: #f8f9fa;
+  padding: 4px 12px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.footer-cell {
+  text-align: center;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+
+.footer-cell.total {
+  background-color: #e3f2fd;
+}
+
+.footer-value {
+  font-weight: 700;
+  color: #2c3e50;
+}
